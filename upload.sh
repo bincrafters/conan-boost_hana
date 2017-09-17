@@ -1,1 +1,1 @@
-conan upload --all --remote bincrafters Boost.Hana/1.64.0@bincrafters/testing
+conan upload --all --remote bincrafters Boost.Hana/1.65.1@bincrafters/testing
