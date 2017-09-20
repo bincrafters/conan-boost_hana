@@ -8,11 +8,11 @@ class BoostHanaConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["hana"]
-    requires =  "Boost.Config/1.65.1@bincrafters/stable", \
-                      "Boost.Core/1.65.1@bincrafters/stable", \
-                      "Boost.Fusion/1.65.1@bincrafters/stable", \
-                      "Boost.Mpl/1.65.1@bincrafters/stable", \
-                      "Boost.Tuple/1.65.1@bincrafters/stable"
+    requires =  "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Fusion/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Tuple/1.65.1@bincrafters/testing"
 
                       #config0 core2 fusion5 mpl5 tuple4
 
