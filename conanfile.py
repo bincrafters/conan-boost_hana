@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostHanaConan(ConanFile):
     name = "boost_hana"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-hana"
+    url = "https://github.com/bincrafters/conan-boost_hana"
 
     lib_short_names = ["hana"]
     is_header_only = True
