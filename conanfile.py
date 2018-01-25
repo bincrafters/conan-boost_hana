@@ -8,7 +8,8 @@ class BoostHanaConan(ConanFile):
     name = "boost_hana"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_hana"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["hana"]
     is_header_only = True
 
