@@ -4,18 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostHanaConan(base.BoostBaseConan):
     name = "boost_hana"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_hana"
-    lib_short_names = ["hana"]
-    header_only_libs = ["hana"]
-    b2_requires = [
-        "boost_config",
-        "boost_core",
-        "boost_fusion",
-        "boost_mpl",
-        "boost_tuple"
-    ]
+    version = "1.70.0"
